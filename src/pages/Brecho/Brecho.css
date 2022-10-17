@@ -1,0 +1,23 @@
+.main-brecho {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-brecho h1 {
+    text-align: center;
+    color: #7878B9;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+.product-list {
+    display: flex;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

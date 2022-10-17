@@ -1,0 +1,123 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #7878B9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 0 10rem;
+    font-size: 1.2rem;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+}
+
+.nav-page-links {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    list-style: none;
+}
+
+.nav-social-links {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 30px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+    font-family: 'RobotoMedium';
+    font-size: 1.1rem;
+}
+
+.nav-page-item {
+    display: flex;
+    height: 60px;
+    width: 70px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.nav-page-item.selected {
+    display: flex;
+    background-color: #FFF;
+    color: #7878B9;
+    width: 70px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    transition: 1s all;
+}
+
+.nav-social-links a{
+    background-color: #FFF;
+    color: #7878B9;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.nav-link.selected {
+    color: #7878B9;
+}
+
+.nav-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        background-color: #7878B9;
+        position: relative;
+        padding: 0 1rem;
+        border-bottom: 0;
+    }
+
+    .nav-page-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        grid-gap: 0;
+        width: 100%;
+        top: 57px;
+        left: -100%;
+        transition: 0.5s all;
+    }
+
+    .nav-page-links.active, .nav-social-links.active {
+        background-color: #7878B9;
+        left: 0;
+    }
+    
+    .nav-page-links.active {
+        border: 1px solid rgb(95, 80, 80);
+    }
+ 
+    .nav-page-item, .nav-page-item.selected {
+        padding: 10px 0;
+        width: 100%;
+        height: 60px;
+        border-top: .5px solid rgb(95, 80, 80);
+        border-bottom: 1px solid rgb(95, 80, 80);
+    }
+
+    .nav-social-links .nav-item {
+        border-bottom: 0;
+    }
+
+    .nav-icon {
+        display: flex;
+    }
+}
