@@ -4,15 +4,15 @@ import './Card.css';
 import cafe from '../../assets/images/cafe.png';
 import camisa from '../../assets/images/camisa.png';
 
-function Card({tipo}) {
+function Card({srcImg, name, price}) {
     return (
         <div className='card-container'>
             <div className='card-image'>
-                <img src={tipo === 'c' ? cafe : camisa } />       
+                <img src={require(`../../assets/images/${srcImg}`)} />       
             </div>
             <div className='card-info'>
-                <span className='product-name'>Nome do produto</span>
-                <span className='product-price'>R$00,00</span>
+                <span className='product-name'>{name}</span>
+                <span className='product-price'>R${price}</span>
             </div>
         </div>
     );

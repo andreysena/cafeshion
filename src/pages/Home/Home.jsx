@@ -10,17 +10,13 @@ function Home() {
             <section className="section-group">
                 <section className="sobre-nos">
                     <h2>Quem somos nós</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Aenean bibendum quam et magna finibus aliquam. 
-                        Maecenas lobortis, libero ut aliquet congue, nunc lorem lacinia mauris, venenatis tristique ligula felis ut augue. 
-                        Donec molestie pretium nulla, a faucibus neque placerat sed. 
-                        Duis tempor fringilla magna vitae faucibus. 
-                        Proin a turpis non lorem consequat tempus at id tellus. 
-                        Nulla bibendum vitae justo vitae dapibus. Maecenas placerat consequat cursus. 
-                        Duis sed orci malesuada, ornare lectus in, blandit urna. Duis ac molestie magna. 
-                        Curabitur molestie augue eget placerat congue. Donec nibh metus, sagittis at pellentesque vitae, ultricies vel nibh. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris non sem nunc. 
-                        Donec nec facilisis diam. Sed dictum tortor et est tempus maximus.</p>
+                    <p>Fundada no ano de 2022 seu objetivo inicial – um desafio que se tornou uma paixão. 
+                        Com o intuito de permitir que você tome aquele café delicioso 
+                        e faça compras ao mesmo tempo, em um ambiente acolhedor, 
+                        inspirado na melhor época da história nos anos 60, 
+                        quando os carros eram legais, a música era boa e todo mundo dançava junto. 
+                        O Caféshion traz para você uma experiência única, 
+                        de conhecer um pouco mais sobre essa época tão importante.</p>
                 </section>
                 <section className="nossa-equipe">
                     <h2>Nossa Equipe</h2>
