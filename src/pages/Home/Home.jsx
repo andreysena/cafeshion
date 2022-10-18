@@ -17,6 +17,14 @@ function Home() {
                         quando os carros eram legais, a música era boa e todo mundo dançava junto. 
                         O Caféshion traz para você uma experiência única, 
                         de conhecer um pouco mais sobre essa época tão importante.</p>
+                    <h2>Missão</h2>
+                    <p>O cafeshion está comprometida a levar a melhor experiência para  estudantes, 
+                        educadores, profissionais criativos e 
+                        consumidores  através de seu gostinho e vivência única.</p>
+                    <h2>Visão</h2>
+                    <p>Ser a maior e melhor rede de cafe e brecho mais conhecidos, 
+                        oferecendo aos seus clientes e parceiros uma relação duradoura, 
+                        com foco no crescimento, rentabilidade e responsabilidade socioambiental.</p>
                 </section>
                 <section className="nossa-equipe">
                     <h2>Nossa Equipe</h2>
